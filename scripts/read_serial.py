@@ -8,7 +8,7 @@ import numpy as np
 
 # Replace 'COM3' with the appropriate port name for your system
 serial_port = '/dev/ttyACM0'
-baud_rate = 38400
+baud_rate = 115200
 
 # Establish a connection to the serial port
 ser = serial.Serial(serial_port, baud_rate, timeout=1)
